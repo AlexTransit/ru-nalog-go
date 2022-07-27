@@ -1,4 +1,4 @@
-module github.com/temoto/ru-nalog-go
+module github.com/AlexTransit/ru-nalog-go
 
 go 1.11
 
