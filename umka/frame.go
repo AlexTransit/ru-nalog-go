@@ -6,6 +6,7 @@ import (
 	"strings"
 	"time"
 
+	// ru_nalog "github.com/AlexTransit/ru-nalog-go"
 	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 	"github.com/juju/errors"
 )
@@ -29,7 +30,8 @@ type Document struct {
 }
 
 type docdata struct {
-	DocNumber uint32           `json:"docNumber,omitempty"`
+	DocNumber uint32 `json:"docNumber,omitempty"`
+	// DocType   ru_nalog.DocType `json:"docType,omitempty"`
 	DocType   ru_nalog.DocType `json:"docType,omitempty"`
 	Name      string           `json:"name,omitempty"`
 	MoneyType int              `json:"moneyType"` //ТИП ОПЛАТЫ (1. Наличным, 2. Электронными, 3. Предоплата, 4. Постоплата, 5. Встречное предоставление)

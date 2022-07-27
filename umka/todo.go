@@ -1,8 +1,8 @@
 package umka
 
 import (
-	"github.com/juju/errors"
 	ru_nalog "github.com/AlexTransit/ru-nalog-go"
+	"github.com/juju/errors"
 )
 
 func (u *Umka) CalcReport() (*ru_nalog.Doc, error) {

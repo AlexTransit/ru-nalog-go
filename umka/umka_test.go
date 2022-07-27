@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
+	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 )
 
 func Test401(t *testing.T) {

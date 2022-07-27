@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 )
 
 func TestParseResponseDoc(t *testing.T) {
