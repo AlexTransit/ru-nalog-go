@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	ru_nalog "github.com/temoto/ru-nalog-go"
+	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 )
 
 // RFC822Z +century,seconds or RFC1123Z -dayofweek

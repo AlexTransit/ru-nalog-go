@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	ru_nalog "github.com/temoto/ru-nalog-go"
+	ru_nalog "github.com/AlexTransit/ru-nalog-go"
 )
 
 func Test401(t *testing.T) {
